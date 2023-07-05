@@ -33,9 +33,10 @@ echo '要素は' . $fruits . "\n";
 
 //課題４
 $start = 1;
-$end = 100;
+$end = 101;
 
 for($i = $start; $i < $end; $i++){
-  if($i % 5 == 0)
+  if($i % 5 == 0) {
     echo $i . "\n";
+  }
 }
